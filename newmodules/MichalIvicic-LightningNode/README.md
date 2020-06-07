@@ -1,6 +1,5 @@
 # Extension: LightningNode
-
-![image-20200607163940582](https://github.com/ivicicm/grcis/blob/module/lightning/newmodules/MichalIvicic-LightningNode/images/l1.png)
+<p align="center"> <img src="https://github.com/ivicicm/grcis/blob/module/lightning/newmodules/MichalIvicic-LightningNode/images/l1.png"/> </p>
 
 ### Author: Michal Ivičič
 
