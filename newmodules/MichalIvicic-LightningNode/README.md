@@ -1,6 +1,6 @@
 # Extension: LightningNode
 
-![image-20200607163940582](C:\Users\michal\AppData\Roaming\Typora\typora-user-images\image-20200607163940582.png)
+![image-20200607163940582](https://github.com/ivicicm/grcis/blob/module/lightning/newmodules/MichalIvicic-LightningNode/images/l1.png)
 
 ### Author: Michal Ivičič
 
@@ -39,8 +39,8 @@ The following script should run without without any other dependencies, only `Li
 
 ## Images
 
-![image-20200607164328962](C:\Users\michal\AppData\Roaming\Typora\typora-user-images\image-20200607164328962.png)
+![image-20200607164328962](https://github.com/ivicicm/grcis/blob/module/lightning/newmodules/MichalIvicic-LightningNode/images/l2.png)
 
-![image-20200607164428567](C:\Users\michal\AppData\Roaming\Typora\typora-user-images\image-20200607164428567.png)
+![image-20200607164428567](https://github.com/ivicicm/grcis/blob/module/lightning/newmodules/MichalIvicic-LightningNode/images/l3.png)
 
-![image-20200607173840214](C:\Users\michal\AppData\Roaming\Typora\typora-user-images\image-20200607173840214.png)
+![image-20200607173840214](https://github.com/ivicicm/grcis/blob/module/lightning/newmodules/MichalIvicic-LightningNode/images/l4.png)
