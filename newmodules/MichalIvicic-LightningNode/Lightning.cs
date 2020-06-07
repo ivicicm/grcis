@@ -14,11 +14,12 @@ namespace MichalIvicic
       Vector3d begin,
       Vector3d end,
       double r, // radius of the central lightning branch
+      Random rand = null,
       int points = 20, // number of points in the central lightning branch
       double nonStraightness = 0.3,
       double glowExp = 4,
-      double branches = 7, // number of branches in the central lightning branch
-      Random rand = null)
+      double branches = 7 // number of branches in the central lightning branch
+      )
     {
       if (rand == null)
         rand = new Random();
@@ -46,8 +47,8 @@ namespace MichalIvicic
         direction *= (rand.NextDouble()*0.7 + 0.2) * toEnd;
         // recursive calling
         double sizeQuotient = direction.Length / height;
-        mainBranch.InsertChild(CreateLightning(vertices[index], vertices[index] + direction, r * sizeQuotient, (int)(points * sizeQuotient),
-          nonStraightness, glowExp, (int)(branches * sizeQuotient / 2), rand), Matrix4d.Identity);
+        mainBranch.InsertChild(CreateLightning(vertices[index], vertices[index] + direction, r * sizeQuotient, rand, (int)(points * sizeQuotient),
+          nonStraightness, glowExp, (int)(branches * sizeQuotient / 2)), Matrix4d.Identity);
       }
 
       return mainBranch;
